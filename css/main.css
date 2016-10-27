@@ -91,10 +91,10 @@ footer {
 figure {
   float: right;
   width: 300px;
+  padding: .4em .2em;
   padding-left: .4rem;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
-  padding: .4em .2em;
   color: #666;
 }
 
@@ -103,7 +103,7 @@ figcaption {
   font-size: .875em;
 }
 
-.wrapper::first-letter {
+main >p:first-child::first-letter {
   float: left;
   font-size: 5rem;
   background-color: #666;
@@ -112,5 +112,13 @@ figcaption {
   border-bottom: 3px solid #333;
   font-style: normal;
   padding: 6px 3px;
+  margin-right: 5px;
+}
+
+blockquote {
+  float: left;
   text-align: left;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  padding: 6px 0;
 }
