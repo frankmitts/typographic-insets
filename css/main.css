@@ -95,9 +95,12 @@ figure {
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
   padding: .4em .2em;
+  color: #666;
+}
+
+figcaption {
   font-style: italic;
   font-size: .875em;
-  color: #666;
 }
 
 .wrapper::first-letter {
