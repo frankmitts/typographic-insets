@@ -97,12 +97,17 @@ figure {
   padding: .4em .2em;
   font-style: italic;
   font-size: .875em;
-  color: #f2f2f2
+  color: #666;
 }
 
-.wrapper p first-letter {
+.wrapper::first-letter {
+  float: left;
   font-size: 5rem;
-  background-color: #333;
-  border-top: #333;
-  border-bottom: #333
+  background-color: #666;
+  color: #fff;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  font-style: normal;
+  padding: 6px 3px;
+  text-align: left;
 }
