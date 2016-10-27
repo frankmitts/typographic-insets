@@ -92,10 +92,12 @@ figure {
   float: right;
   width: 300px;
   padding: .4em .2em;
-  padding-left: .4rem;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
-  color: #666;
+  color: #333;
+  margin: 0;
+  margin-right: -9em;
+  margin-bottom: 5px;
 }
 
 figcaption {
@@ -103,7 +105,7 @@ figcaption {
   font-size: .875em;
 }
 
-main >p:first-child::first-letter {
+main > p:first-child::first-letter {
   float: left;
   font-size: 5rem;
   background-color: #666;
@@ -111,8 +113,9 @@ main >p:first-child::first-letter {
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
   font-style: normal;
-  padding: 6px 3px;
-  margin-right: 5px;
+  padding: .1em .2em;
+  margin: 7px;
+  margin-left: 0;
 }
 
 blockquote {
